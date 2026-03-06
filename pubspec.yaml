@@ -1,0 +1,26 @@
+name: robjob_mobile
+description: RobJob Video CV Mobile App
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  dio: ^5.4.0
+  flutter_secure_storage: ^9.0.0
+  image_picker: ^1.0.7
+  video_player: ^2.8.3
+  chewie: ^1.7.5
+  permission_handler: ^11.3.0
+  go_router: ^13.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
